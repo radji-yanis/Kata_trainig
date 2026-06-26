@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>La Machine à Invocation</title>
+</head>
+<body>
+    <section>
+        <h1>La Machine à Invocation</h1>
+        <form id="invocation" action="">
+            <label for="prenom">Prénom :</label>
+            <input id="prenom" type="text">
+
+            <label for="creature">Créature :</label>
+            <select id="creature">
+                <option value="chat-octo">🐙 le Chat-Octo</option>
+                <option value="dragon-debug">🐉 le Dragon-Debug</option>
+                <option value="licorne-css">🦄 la Licorne-CSS</option>
+                <option value="renard-refacto">🦊 le Renard-Refacto</option>
+            </select>
+
+            <button type="submit">Invoquer</button>
+        </form>
+    </section>
+    <section id="resultat" class="cache">
+        <p id="message"></p>
+
+    </section>
+    
+</html>

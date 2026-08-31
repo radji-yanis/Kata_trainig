@@ -1,0 +1,18 @@
+.entete {
+  background: var(--forest);
+  color: var(--text-h);
+  padding: 48px 24px;
+  margin-bottom: 32px;
+}
+
+.entete h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0 0 12px;
+  letter-spacing: -1px;
+}
+
+.entete p {
+  font-size: 18px;
+  opacity: 0.85;
+}

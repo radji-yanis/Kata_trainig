@@ -1,0 +1,14 @@
+.carte-rando .facile {
+  color: #2d5a3d;
+  font-weight: 600;
+}
+
+.carte-rando .moyen {
+  color: #c8683f;
+  font-weight: 600;
+}
+
+.carte-rando .difficile {
+  color: #a32d2d;
+  font-weight: 600;
+}

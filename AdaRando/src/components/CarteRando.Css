@@ -1,0 +1,20 @@
+.carte-rando {
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--terracotta);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.carte-rando p {
+  margin: 4px 0;
+  color: var(--text);
+}
+
+.carte-rando p:first-child {
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--forest-dark);
+}
